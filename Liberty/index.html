@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+    <title>Liberty</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./images/nav.png" alt="nav" class="first__logo">
+                <ul>
+                    <li class="li li__active"><a href="index.html">Home</a></li>
+                    <li class="li"><a href="Explore.html">Explore</a></li>
+                    <li class="li"><a href="itemDetails.html">Item Details</a></li>
+                    <li class="li"><a href="Author.html">Author</a></li>
+                    <li class="li"><a href="createYours.html">Create Yours</a></li>
+                </ul>
+        </nav>
+        
+        <banner>
+                <div class="sell__NFT"> 
+                    <div class="banner__text">
+                        <h3>Liberty NFT Market</h3>
+                        <h1>CREATE, SELL & COLLECT<br> TOP NFT'S.</h1>
+                        <p>Liberty NFT Market is a really cool and professional design for your NFT websites. This HTML CSS template is
+                            based on
+                            Bootstrap v5 and it is designed for NFT related web portals. Liberty can be freely downloaded from
+                            TemplateMo's free css
+                            templates.</p>
+                        <div class="button__success">
+                            <button class="button button__explore">Explore Top NFTs<span class="line"></span></button>
+                            <button class="button button__watch">Watch Our Videos<span class="line"></span></button>
+                        </div>
+                    </div>
+                    
+                    <div class="banner__slider">
+                        <div class="slider__images">
+                            <div class="image" id="last">
+                                <img src="./images/banner-02.png" alt="">
+                            </div>
+                            <div class="image">
+                                <img src="./images/banner-01.png" alt="">
+                            </div>
+                            <div class="image">
+                                <img src="./images/banner-02.png" alt="">
+                            </div>
+                            <div class="image" id="first">
+                                <img src="./images/banner-01.png" alt="">
+                            </div>
+                        </div>
+                        <div class="slider__buttons">
+                            <button class="btn btn__slide prev"><i class="fa-solid fa-angle-left"></i></button>
+                            <button class="btn btn__slide next"><i class="fa-solid fa-angle-right"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+        </banner>
+    </header>
+    <section class="hot__collections">
+        <h1 class="browse__categories">
+            Browse Through Our<span class="categories"> Categories</span> Here.
+        </h1>
+        <div class="flexbox__container">
+            <div class="flexbox__items"><img src="./images/blockchain.png" alt="blockchain" class="nft__arts"><p class="nft__arts--text">Blockchain</p></div>
+            <div class="flexbox__items"><img src="./images/digital-art.png" alt="digital art" class="nft__arts"><p class="nft__arts--text">Digital Art</p></div>
+            <div class="flexbox__items"><img src="./images/music-art.png" alt="music art" class="nft__arts"><p class="nft__arts--text">Music Art</p></div>
+            <div class="flexbox__items"><img src="./images/virtual-world.png" alt="virtual world" class="nft__arts"><p class="nft__arts--text">Virtual World</p></div>
+            <div class="flexbox__items"><img src="./images/valuable.png" alt="valuable" class="nft__arts"><p class="nft__arts--text">Valuable</p></div>
+            <div class="flexbox__items"><img src="./images/triple-NFT.png" alt="triple-NFT" class="nft__arts"><p class="nft__arts--text">Triple NFT</p></div>
+        </div>
+        <h1 class="browse__categories">
+            Explore Some Hot<span class="categories"> Collections</span> In Market.
+        </h1>
+        <div class="card__slider">
+            <div class="buttons">
+                <button class="btn btn__slide prev" id="prev"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="btn btn__slide next" id="next"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+            <div class="slider" id="slider">
+                <div class="slider__cards" id="last">
+                    <div class="card card__slide" id="slides">
+                        <img src="./images/explore-collections.jpg" alt="">
+                        <div class="card__slide__info">
+                            <h3>Worldwide Artwork Ground</h3>
+                            <span class="line line--thin"></span>
+                            <div class="info">
+                                <div class="info__text">
+                                    <p>Items In Collection:</p>
+                                    <h3>426/468</h3>
+                                </div>
+                                <div class="info__text">
+                                    <p>Category:</p>
+                                    <h3>Blockchain</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn__primary">Explore Genesis <span class="line"></span></button>
+                    </div>
+                </div>
+                <div class="slider__cards">
+                    <div class="card card__slide" id="slides">
+                        <img src="./images/explore-collections.jpg" alt="">
+                        <div class="card__slide__info">
+                            <h3>Mutant Bored Ape Yacht Club</h3>
+                            <span class="line line--thin"></span>
+                            <div class="info">
+                                <div class="info__text">
+                                    <p>Items In Collection:</p>
+                                    <h3>310/340</h3>
+                                </div>
+                                <div class="info__text">
+                                    <p>Category:</p>
+                                    <h3>Digital Crypto</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn__primary">Explore Mutant<span class="line"></span></button>
+                    </div>
+                </div>
+                <div class="slider__cards">
+                    <div class="card card__slide" id="slides">
+                        <img src="./images/explore-collections.jpg" alt="">
+                        <div class="card__slide__info">
+                            <h3>Bored Ape Kennel Club</h3>
+                            <span class="line line--thin"></span>
+                            <div class="info">
+                                <div class="info__text">
+                                    <p>Items In Collection:</p>
+                                    <h3>324/324</h3>
+                                </div>
+                                <div class="info__text">
+                                    <p>Category:</p>
+                                    <h3>Visual Art</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn__primary">Explore Bored Ape <span class="line"></span></button>
+                    </div>
+                </div>
+                <div class="slider__cards">
+                    <div class="card card__slide" id="slides">
+                        <img src="./images/explore-collections.jpg" alt="">
+                        <div class="card__slide__info">
+                            <h3>Genesis Collective Statue</h3>
+                            <span class="line line--thin"></span>
+                            <div class="info">
+                                <div class="info__text">
+                                    <p>Items In Collection:</p>
+                                    <h3>380/394</h3>
+                                </div>
+                                <div class="info__text">
+                                    <p>Category:</p>
+                                    <h3>Music Art</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn__primary">Explore Genesis <span class="line"></span></button>
+                    </div>
+                </div>
+                <div class="slider__cards">
+                    <div class="card card__slide" id="slides last">
+                        <img src="./images/explore-collections.jpg" alt="">
+                        <div class="card__slide__info">
+                            <h3>Worldwide Artwork Ground</h3>
+                            <span class="line line--thin"></span>
+                            <div class="info">
+                                <div class="info__text">
+                                    <p>Items In Collection:</p>
+                                    <h3>426/468</h3>
+                                </div>
+                                <div class="info__text">
+                                    <p>Category:</p>
+                                    <h3>Blockchain</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn__primary">Explore Worldwide <span class="line"></span></button>
+                    </div>
+                </div>
+                <div class="slider__cards" id="first">
+                    <div class="card card__slide" id="slides">
+                        <img src="./images/explore-collections.jpg" alt="">
+                        <div class="card__slide__info">
+                            <h3>Mutant Bored Ape Yacht Club</h3>
+                            <span class="line line--thin"></span>
+                            <div class="info">
+                                <div class="info__text">
+                                    <p>Items In Collection:</p>
+                                    <h3>310/340</h3>
+                                </div>
+                                <div class="info__text">
+                                    <p>Category:</p>
+                                    <h3>Digital Crypto</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn__primary">Explore Mutant<span class="line"></span></button>
+                    </div>
+                </div>
+                <div class="slider__cards">
+                    <div class="card card__slide" id="slides">
+                        <img src="./images/explore-collections.jpg" alt="">
+                        <div class="card__slide__info">
+                            <h3>Bored Ape Kennel Club</h3>
+                            <span class="line line--thin"></span>
+                            <div class="info">
+                                <div class="info__text">
+                                    <p>Items In Collection:</p>
+                                    <h3>324/324</h3>
+                                </div>
+                                <div class="info__text">
+                                    <p>Category:</p>
+                                    <h3>Visual Art</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn__primary">Explore Bored Ape <span class="line"></span></button>
+                    </div>
+                </div>
+                <div class="slider__cards">
+                    <div class="card card__slide" id="slides">
+                        <img src="./images/explore-collections.jpg" alt="">
+                        <div class="card__slide__info">
+                            <h3>Genesis Collective Statue</h3>
+                            <span class="line line--thin"></span>
+                            <div class="info">
+                                <div class="info__text">
+                                    <p>Items In Collection:</p>
+                                    <h3>380/394</h3>
+                                </div>
+                                <div class="info__text">
+                                    <p>Category:</p>
+                                    <h3>Music Art</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn__primary">Explore Genesis <span class="line"></span></button>
+                    </div>
+                </div>
+            </div>
+
+        
+    </section>
+
+    <section class="on__the--market">
+        <div class="just__the--line">
+            <div class="create__your--NFT">
+                <span class="line"></span>
+                <h1 class="under__the--line">Create Your NFT & Put It On The Market.</h1>
+            </div>
+                <button class="button__watch">Create Your NFT Now<span class="line"></span></button>
+        </div>
+        <div class="NFT__industry">
+            <div class="setup__your--wallet">
+                <img src="./images/digital-art.png" alt="" class="nft__pictures">
+                <h3 class="between__photo--text">Set Up Your Wallet</h3>
+                <p>NFT means Non-Fungible Token that are used in digital cryptocurrency markets. There are many different kinds of NFTs in
+                the industry</p>
+            </div>
+            <div class="setup__your--wallet">
+                <img src="./images/virtual-world.png" alt="" class="nft__pictures">
+                <h3 class="between__photo--text">Add Your Digital NFT</h3>
+                <p>There are 5 different HTML pages included in this NFT<a href="https://templatemo.com/page/1" target="_blank" class="website__template"> website template</a>. You can edit or modify any section on any page
+                as you required.</p>
+            </div>
+            <div class="setup__your--wallet">
+                <img src="./images/triple-NFT.png" alt="" class="nft__pictures">
+                <h3 class="between__photo--text">Sell Your NFT & Make Profit</h3>
+                <p>If you would like to support our TemplateMo website, please visit <a href="https://templatemo.com/contact" target="_blank" class="website__template">our contact page</a> to make a PayPal contribution. Thank
+                you.</p>
+            </div>
+        </div>
+    </section>
+    <section class="scelet__section">
+        <div class="false__nav">
+            <h1 class="currently__items">
+                <span class="items">Items</span> Currently In The Market.
+            </h1>
+            <ul>
+                <li class="li li__active">All Items</li>
+                <li class="li">Music Art</li>
+                <li class="li">Digital Art</li>
+                <li class="li">Blockchain</li>
+                <li class="li">Virtual</li>
+            </ul>
+        </div>
+        
+        <div class="six__scelets">
+        <div class="scelet">
+            <img src="./images/scelet.jpg" alt="" class="scelets">
+            <div class="music__art--super">
+                <h3>Music Art Super Item</h3>
+                <div class="artist__image--info">
+                    <img src="./images/liberty-artist.jpg" alt="" class="liberty__artist">
+                    <div class="artist__info">
+                        <p>Liberty Artist</p>
+                        <h4 class="liberty__art">@libertyart</h4>
+                    </div>
+                </div>
+                <span class="line"></span>
+                <div class="bid">
+                    <div class="current__bid">
+                        <p>Current Bid</p>
+                        <h3>2.03 ETH</h3>
+                        <p>($8,240.50)</p>
+                    </div>
+                    <div class="ends__in">
+                        <p>Ends in</p>
+                        <h3>4D 08H 15M 42S</h3>
+                        <p>(July 24th,2022)</p>
+                    </div>
+                </div>
+                <a href="#" class="link__scelet"><b>View Item Details</b></a>
+            </div>
+        </div>
+        <div class="scelet">
+            <img src="./images/scelet.jpg" alt="" class="scelets">
+            <div class="music__art--super">
+                <h3>Music Art Super Item</h3>
+                <div class="artist__image--info">
+                    <img src="./images/liberty-artist.jpg" alt="" class="liberty__artist">
+                    <div class="artist__info">
+                        <p>Liberty Artist</p>
+                        <h4 class="liberty__art">@libertyart</h4>
+                    </div>
+                </div>
+                <span class="line"></span>
+                <div class="bid">
+                    <div class="current__bid">
+                        <p>Current Bid</p>
+                        <h3>2.03 ETH</h3>
+                        <p>($8,240.50)</p>
+                    </div>
+                    <div class="ends__in">
+                        <p>Ends in</p>
+                        <h3>4D 08H 15M 42S</h3>
+                        <p>(July 24th,2022)</p>
+                    </div>
+                </div>
+                <a href="#" class="link__scelet"><b>View Item Details</b></a>
+            </div>
+        </div>
+        <div class="scelet">
+            <img src="./images/scelet.jpg" alt="" class="scelets">
+            <div class="music__art--super">
+                <h3>Music Art Super Item</h3>
+                <div class="artist__image--info">
+                    <img src="./images/liberty-artist.jpg" alt="" class="liberty__artist">
+                    <div class="artist__info">
+                        <p>Liberty Artist</p>
+                        <h4 class="liberty__art">@libertyart</h4>
+                    </div>
+                </div>
+                <span class="line"></span>
+                <div class="bid">
+                    <div class="current__bid">
+                        <p>Current Bid</p>
+                        <h3>2.03 ETH</h3>
+                        <p>($8,240.50)</p>
+                    </div>
+                    <div class="ends__in">
+                        <p>Ends in</p>
+                        <h3>4D 08H 15M 42S</h3>
+                        <p>(July 24th,2022)</p>
+                    </div>
+                </div>
+                <a href="#" class="link__scelet"><b>View Item Details</b></a>
+            </div>
+        </div>
+        <div class="scelet">
+            <img src="./images/scelet.jpg" alt="" class="scelets">
+            <div class="music__art--super">
+                <h3>Music Art Super Item</h3>
+                <div class="artist__image--info">
+                    <img src="./images/liberty-artist.jpg" alt="" class="liberty__artist">
+                    <div class="artist__info">
+                        <p>Liberty Artist</p>
+                        <h4 class="liberty__art">@libertyart</h4>
+                    </div>
+                </div>
+                <span class="line"></span>
+                <div class="bid">
+                    <div class="current__bid">
+                        <p>Current Bid</p>
+                        <h3>2.03 ETH</h3>
+                        <p>($8,240.50)</p>
+                    </div>
+                    <div class="ends__in">
+                        <p>Ends in</p>
+                        <h3>4D 08H 15M 42S</h3>
+                        <p>(July 24th,2022)</p>
+                    </div>
+                </div>
+                <a href="#" class="link__scelet"><b>View Item Details</b></a>
+            </div>
+        </div>
+        <div class="scelet">
+            <img src="./images/scelet.jpg" alt="" class="scelets">
+            <div class="music__art--super">
+                <h3>Music Art Super Item</h3>
+                <div class="artist__image--info">
+                    <img src="./images/liberty-artist.jpg" alt="" class="liberty__artist">
+                    <div class="artist__info">
+                        <p>Liberty Artist</p>
+                        <h4 class="liberty__art">@libertyart</h4>
+                    </div>
+                </div>
+                <span class="line"></span>
+                <div class="bid">
+                    <div class="current__bid">
+                        <p>Current Bid</p>
+                        <h3>2.03 ETH</h3>
+                        <p>($8,240.50)</p>
+                    </div>
+                    <div class="ends__in">
+                        <p>Ends in</p>
+                        <h3>4D 08H 15M 42S</h3>
+                        <p>(July 24th,2022)</p>
+                    </div>
+                </div>
+                <a href="#" class="link__scelet"><b>View Item Details</b></a>
+            </div>
+        </div>
+        <div class="scelet">
+            <img src="./images/scelet.jpg" alt="" class="scelets">
+            <div class="music__art--super">
+                <h3>Music Art Super Item</h3>
+                <div class="artist__image--info">
+                    <img src="./images/liberty-artist.jpg" alt="" class="liberty__artist">
+                    <div class="artist__info">
+                        <p>Liberty Artist</p>
+                        <h4 class="liberty__art">@libertyart</h4>
+                    </div>
+                </div>
+                <span class="line"></span>
+                <div class="bid">
+                    <div class="current__bid">
+                        <p>Current Bid</p>
+                        <h3>2.03 ETH</h3>
+                        <p>($8,240.50)</p>
+                    </div>
+                    <div class="ends__in">
+                        <p>Ends in</p>
+                        <h3>4D 08H 15M 42S</h3>
+                        <p>(July 24th,2022)</p>
+                    </div>
+                </div>
+                <a href="#" class="link__scelet"><b>View Item Details</b></a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright © 2022 Liberty NFT Marketplace Co., Ltd. All rights reserved. Designed by <b>TemplateMo</b></p>
+    </footer>
+
+</body>
+</html>
+<!--<div class="explore__collections">
+            <div class="explore">
+                <img src="./images/explore-collections.jpg" alt="" class="three__collections">
+                <hr>
+                    <div class="about__the--collections">
+                        <h3>Worldwide Artwork Ground</h3>
+                        <hr class="three__hr">
+                        <div class="items__in--collection">
+                            <p>Items In Collection:</p>
+                            <p>Category:</p>
+                        </div>
+                        <div class="types__of--collections">
+                            <p><b>426/468</b></p>
+                            <p><b>Blockchain</b></p>
+                        </div>
+                        <button class="worldwide button__watch">Explore Worldwide<span class="line"></span></button>
+                    </div>
+            </div>
+            <div class="explore"><img src="./images/explore-collections.jpg" alt="" class="three__collections">
+                <hr>
+                <div class="about__the--collections">
+                    <h3>Mutant Bored Ape Yacht Club </h3>
+                    <hr class="three__hr">
+                        <div class="items__in--collection">
+                            <p>Items In Collection:</p>
+                            <p>Category:</p>
+                        </div>
+                        <div class="types__of--collections">
+                            <p><b>310/340</b></p>
+                            <p><b>Digital Crypto</b></p>
+                        </div>
+                        <button class="mutant button__watch">Explore Mutant<span class="line"></span></button>
+                </div>
+            </div>
+            <div class="explore"><img src="./images/explore-collections.jpg" alt="" class="three__collections">
+                <hr>
+                <div class="about__the--collections">
+                    <h3>Bored Ape Kennel Club</h3>
+                    <hr class="three__hr">
+                        <div class="items__in--collection">
+                            <p>Items In Collection:</p>
+                            <p>Category:</p>
+                        </div>
+                        <div class="types__of--collections">
+                            <p><b>324/324</b></p>
+                            <p><b>Visual Art</b></p>
+                        </div>
+                        <button class="worldwide button__watch">Explore Bored Ape<span class="line"></span></button>
+                </div>
+            </div>
+        </div>-->
